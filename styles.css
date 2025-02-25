@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #615f5e;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #f4efec;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: #615f5e; /*cor das letras no cabeçalho*/
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/Fundo2.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+#artes-da-carol {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/logoArtes.jpg') top right no-repeat,
+                url('img/logoArtes.jpg') bottom left no-repeat;
+    background-size: 200px 200px, 200px 200px; /* Ajuste do tamanho */
+}
+
+#artes-da-carol .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+    background-color: #FAF4F4; 
+}
+
+
+.img-inicio {
+    width: 500px; /* Ajuste para o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+}
+
+#contato {
+    background-image: url('img/Fundo2.jpg');
+    background-size: cover; /* Ajustado para cobrir a seção */
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: #F4EFEC;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #615f5e;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #F1EDEF;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+/* Ajuste do tamanho da imagem Santa.png */
+.img-santa {
+    width: 250px;
+    height: auto;
+}
