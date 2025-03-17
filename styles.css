@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #615f5e;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #dcdf14;
+    --alto-contraste-link:  #dcdf14;
 }
 
 body {
@@ -91,10 +94,19 @@ h2 {
     background-color: #FAF4F4; 
 }
 
+#galeria{
+    background-color: #F1EDEF;
+
+}
 
 .img-inicio {
     width: 500px; /* Ajuste para o tamanho desejado */
     height: auto; /* Mantém a proporção */
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
 }
 
 #contato {
@@ -151,4 +163,38 @@ h2 {
 .img-santa {
     width: 250px;
     height: auto;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none;
 }
